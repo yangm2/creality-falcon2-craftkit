@@ -1,5 +1,5 @@
 {
-    "Diode (20W) - Cut test, Coverboard 1mm": {
+    "Diode (20W) - Cut test, Coverboard 3mm": {
         "BorderCut": {
             "index": 2,
             "maxPower": 80,
@@ -48,7 +48,7 @@
         "YParam": 0,
         "YSize": 5
     },
-    "Diode (40W) - Cut test, Coverboard 1mm": {
+    "Diode (40W) - Cut test, Coverboard 3mm": {
         "BorderCut": {
             "index": 2,
             "maxPower": 80,
