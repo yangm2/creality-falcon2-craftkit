@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="Falcon2 Pro - Laser Power 22W">
+  <!-- Basswood -->
+  <Material name="Basswood">
+    <!-- Row 1: Basswood 2 40 6000 1 -->
+    <Entry Thickness="2.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="40"/>
+        <maxPower2 Value="40"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+    <!-- Rows 24-32: Cutting entries for Basswood -->
+    <Entry Thickness="2.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="700"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="550"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="400"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="8.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="240"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="10.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="120"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Walnut Plywood -->
+  <Material name="Walnut Plywood">
+    <!-- Row 2: Walnut Plywood 3 35 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="35"/>
+        <maxPower2 Value="35"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="450"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="350"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Rosewood Plywood -->
+  <Material name="Rosewood Plywood">
+    <!-- Row 3: Rosewood Plywood 3 35 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="35"/>
+        <maxPower2 Value="35"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="450"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="350"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+  </Material>
+
+  <!-- Bamboo -->
+  <Material name="Bamboo">
+    <!-- Row 4: Bamboo 3 40 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="40"/>
+        <maxPower2 Value="40"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 34: Bamboo 3 100 450 1 (Cutting mode) -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="450"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Kraft Paper -->
+  <Material name="Kraft Paper">
+    <!-- Row 5: Kraft Paper 0.15 18 6000 1 -->
+    <Entry Thickness="0.1500" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="18"/>
+        <maxPower2 Value="18"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 35: Kraft Paper 0.2 80 4000 1 -->
+    <Entry Thickness="0.2000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="80"/>
+        <maxPower2 Value="80"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Red Card Paper -->
+  <Material name="Red Card Paper">
+    <!-- Row 6: Red Card Paper 0.2 15 6000 1 -->
+    <Entry Thickness="0.2000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="15"/>
+        <maxPower2 Value="15"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 36: Red Card Paper 0.2 50 4000 1 -->
+    <Entry Thickness="0.2000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Red Felt -->
+  <Material name="Red Felt">
+    <!-- Row 7: Red Felt 0.8 13 6000 1 -->
+    <Entry Thickness="0.8000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="13"/>
+        <maxPower2 Value="13"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 37: Red Felt 0.8 55 4000 1 -->
+    <Entry Thickness="0.8000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Brown Leather -->
+  <Material name="Brown Leather">
+    <!-- Row 8: Brown Leather 0.65 18 6000 1 -->
+    <Entry Thickness="0.6500" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="18"/>
+        <maxPower2 Value="18"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 38: Brown Leather 0.65 100 2000 1 -->
+    <Entry Thickness="0.6500" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="2000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Black Opaque Glossy Acrylic -->
+  <Material name="Black Opaque Glossy Acrylic">
+    <!-- Row 9: Black Opaque Glossy Acrylic 3 50 4000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Purple Opaque Glossy Acrylic -->
+  <Material name="Purple Opaque Glossy Acrylic">
+    <!-- Row 10: Purple Opaque Glossy Acrylic 3 50 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 41: Purple Opaque Glossy Acrylic 3 55 120 2 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Red Opaque Glossy Acrylic -->
+  <Material name="Red Opaque Glossy Acrylic">
+    <!-- Row 11: Red Opaque Glossy Acrylic 3 50 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 42: Red Opaque Glossy Acrylic 3 55 120 1 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Orange Opaque Glossy Acrylic -->
+  <Material name="Orange Opaque Glossy Acrylic">
+    <!-- Row 12: Orange Opaque Glossy Acrylic 3 50 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 43: Orange Opaque Glossy Acrylic 3 55 120 2 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Green Opaque Glossy Acrylic -->
+  <Material name="Green Opaque Glossy Acrylic">
+    <!-- Row 13: Green Opaque Glossy Acrylic 3 50 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 44: Green Opaque Glossy Acrylic 3 55 120 3 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Red Transparent Acrylic -->
+  <Material name="Red Transparent Acrylic">
+    <!-- Row 14: Red Transparent Acrylic 3 20 3000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 45: Red Transparent Acrylic 3 55 120 3 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Yellow Transparent Acrylic -->
+  <Material name="Yellow Transparent Acrylic">
+    <!-- Row 15: Yellow Transparent Acrylic 3 20 3000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 46: Yellow Transparent Acrylic 3 55 120 2 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Green Transparent Acrylic -->
+  <Material name="Green Transparent Acrylic">
+    <!-- Row 16: Green Transparent Acrylic 3 20 3000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 47: Green Transparent Acrylic 3 55 120 3 -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="55"/>
+        <maxPower2 Value="55"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Black Frosted Acrylic -->
+  <Material name="Black Frosted Acrylic">
+    <!-- Row 17: Black Frosted Acrylic 3 40 3000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="40"/>
+        <maxPower2 Value="40"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Orange Frosted Acrylic -->
+  <Material name="Orange Frosted Acrylic">
+    <!-- Row 18: Orange Frosted Acrylic 3 60 1200 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="60"/>
+        <maxPower2 Value="60"/>
+        <speed Value="1200"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Green Frosted Acrylic -->
+  <Material name="Green Frosted Acrylic">
+    <!-- Row 19: Green Frosted Acrylic 3 60 1200 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="60"/>
+        <maxPower2 Value="60"/>
+        <speed Value="1200"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Purple Frosted Acrylic -->
+  <Material name="Purple Frosted Acrylic">
+    <!-- Row 20: Purple Frosted Acrylic 3 60 1000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="60"/>
+        <maxPower2 Value="60"/>
+        <speed Value="1000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Anodized Aluminum -->
+  <Material name="Anodized Aluminum">
+    <!-- Row 21: Anodized Aluminum 3 60 6000 1 -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="60"/>
+        <maxPower2 Value="60"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Brushed Stainless Steel -->
+  <Material name="Brushed Stainless Steel">
+    <!-- Row 22: Brushed Stainless Steel 2 80 6000 1 -->
+    <Entry Thickness="2.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="80"/>
+        <maxPower2 Value="80"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- White Tile Painted Black -->
+  <Material name="White Tile Painted Black">
+    <!-- Row 23: White Tile Painted Black 6 50 4000 1 (Engrave) -->
+    <Entry Thickness="6.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <!-- Black Acrylic -->
+  <Material name="Black Acrylic">
+    <!-- Row 39: 4.6 100 120 1 -->
+    <Entry Thickness="4.6000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="120"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Row 40: 7.6 100 120 2 -->
+    <Entry Thickness="7.6000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+</LightBurnLibrary>

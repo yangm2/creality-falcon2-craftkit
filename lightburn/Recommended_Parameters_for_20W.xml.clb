@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="Falcon2 Pro - Laser Power 20W (extrapolated)">
+  <Material name="Basswood">
+    <!-- Basswood row: Thickness=2, Engrave; 40W:25%, 22W:40% => 20W: ~41.67% -->
+    <Entry Thickness="2.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="41.67"/>
+        <maxPower2 Value="41.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+    <!-- Basswood Cut entries remain 100% -->
+    <!-- Adjusted for 20W using 1.89 J/mm energy density -->
+    <Entry Thickness="2.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="635"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="500"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="364"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="8.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="218"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="10.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="109"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Thickness: 15.0000 mm -->
+    <Entry Thickness="15.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="82"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Walnut Plywood">
+    <!-- Walnut Plywood row: 3, Engrave; 40W:20%, 22W:35% => 20W: ~36.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="36.67"/>
+        <maxPower2 Value="36.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="409"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="318"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+  </Material>
+
+  <Material name="Rosewood Plywood">
+    <!-- Rosewood Plywood row: 3, Engrave; 40W:20%, 22W:35% => 20W: ~36.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="36.67"/>
+        <maxPower2 Value="36.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="409"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="318"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+
+  </Material>
+
+  <Material name="Bamboo">
+    <!-- Bamboo Engrave: 3, 40W:25%, 22W:40% => 20W: ~41.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="41.67"/>
+        <maxPower2 Value="41.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Bamboo Cutting: remains 100% -->
+    <Entry Thickness="5.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="800"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Kraft Paper">
+    <!-- Kraft Paper Engrave: 0.15, 40W:12%, 22W:18% => 20W: ~18.67% -->
+    <Entry Thickness="0.1500" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="18.67"/>
+        <maxPower2 Value="18.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Kraft Paper Cut: 0.2, 40W:40%, 22W:80% => 20W: ~84.44% -->
+    <Entry Thickness="0.2000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="84.44"/>
+        <maxPower2 Value="84.44"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Red Card Paper">
+    <!-- Red Card Paper Engrave: 0.2, 40W:8%, 22W:15% => 20W: ~15.78% -->
+    <Entry Thickness="0.2000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="15.78"/>
+        <maxPower2 Value="15.78"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Red Card Paper Cut: 0.2, 40W:30%, 22W:50% => 20W: ~52.22% -->
+    <Entry Thickness="0.2000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="52.22"/>
+        <maxPower2 Value="52.22"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Red Felt">
+    <!-- Red Felt Engrave: 0.8, 40W:7%, 22W:13% => 20W: ~13.67% -->
+    <Entry Thickness="0.8000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="13.67"/>
+        <maxPower2 Value="13.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Red Felt Cut: 0.8, 40W:35%, 22W:55% => 20W: ~57.22% -->
+    <Entry Thickness="0.8000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.22"/>
+        <maxPower2 Value="57.22"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Brown Leather">
+    <!-- Brown Leather Engrave: 0.65, 40W:12%, 22W:18% => 20W: ~18.67% -->
+    <Entry Thickness="0.6500" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="18.67"/>
+        <maxPower2 Value="18.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Brown Leather Cut: 0.65, 40W:70%, 22W:100% (capped) => 20W: remains 100% -->
+    <Entry Thickness="0.6500" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Black Opaque Glossy Acrylic">
+    <!-- Black Opaque Glossy Acrylic Engrave: 3, 40W:26%, 22W:50% => 20W: ~52.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.67"/>
+        <maxPower2 Value="52.67"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Purple Opaque Glossy Acrylic">
+    <!-- Purple Opaque Glossy Acrylic Engrave: 3, 40W:26%, 22W:50% => 20W: ~52.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.67"/>
+        <maxPower2 Value="52.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Purple Opaque Glossy Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Red Opaque Glossy Acrylic">
+    <!-- Red Opaque Glossy Acrylic Engrave: 3, 40W:26%, 22W:50% => 20W: ~52.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.67"/>
+        <maxPower2 Value="52.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Red Opaque Glossy Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Orange Opaque Glossy Acrylic">
+    <!-- Orange Opaque Glossy Acrylic Engrave: 3, 40W:26%, 22W:50% => 20W: ~52.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.67"/>
+        <maxPower2 Value="52.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Orange Opaque Glossy Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Green Opaque Glossy Acrylic">
+    <!-- Green Opaque Glossy Acrylic Engrave: 3, 40W:26%, 22W:50% => 20W: ~52.67% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.67"/>
+        <maxPower2 Value="52.67"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Green Opaque Glossy Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Red Transparent Acrylic">
+    <!-- Red Transparent Acrylic Engrave: 3, 40W:12%, 22W:20% => 20W: ~20.89% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20.89"/>
+        <maxPower2 Value="20.89"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Red Transparent Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Yellow Transparent Acrylic">
+    <!-- Yellow Transparent Acrylic Engrave: 3, 40W:12%, 22W:20% => 20W: ~20.89% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20.89"/>
+        <maxPower2 Value="20.89"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Yellow Transparent Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Green Transparent Acrylic">
+    <!-- Green Transparent Acrylic Engrave: 3, 40W:12%, 22W:20% => 20W: ~20.89% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="20.89"/>
+        <maxPower2 Value="20.89"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Green Transparent Acrylic Cut: 3, 40W:30%, 22W:55% => 20W: ~57.78% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="57.78"/>
+        <maxPower2 Value="57.78"/>
+        <speed Value="120"/>
+        <numPasses Value="3"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Black Frosted Acrylic">
+    <!-- Black Frosted Acrylic Engrave: 3, 40W:22%, 22W:40% => 20W: ~42% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="42"/>
+        <maxPower2 Value="42"/>
+        <speed Value="3000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <!-- Black Frosted Acrylic Cut: 3, 40W:30%, (assumed 22W:~48%) => 20W: ~50% -->
+    <Entry Thickness="3.0000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="50"/>
+        <maxPower2 Value="50"/>
+        <speed Value="180"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Orange Frosted Acrylic">
+    <!-- Orange Frosted Acrylic Engrave: 3, 40W:30%, 22W:60% => 20W: ~63.33% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="63.33"/>
+        <maxPower2 Value="63.33"/>
+        <speed Value="1200"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Green Frosted Acrylic">
+    <!-- Green Frosted Acrylic Engrave: 3, 40W:30%, 22W:60% => 20W: ~63.33% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="63.33"/>
+        <maxPower2 Value="63.33"/>
+        <speed Value="1200"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Purple Frosted Acrylic">
+    <!-- Purple Frosted Acrylic Engrave: 3, 40W:30%, 22W:60% => 20W: ~63.33% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="63.33"/>
+        <maxPower2 Value="63.33"/>
+        <speed Value="1000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Anodized Aluminum">
+    <!-- Anodized Aluminum Engrave: 3, 40W:30%, 22W:60% => 20W: ~63.33% -->
+    <Entry Thickness="3.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="63.33"/>
+        <maxPower2 Value="63.33"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Brushed Stainless Steel">
+    <!-- Brushed Stainless Steel Engrave: 2, 40W:40%, 22W:80% => 20W: ~84.44% -->
+    <Entry Thickness="2.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="84.44"/>
+        <maxPower2 Value="84.44"/>
+        <speed Value="6000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="White Tile Painted Black">
+    <!-- White Tile Painted Black Engrave: 6, 40W:28%, 22W:50% => 20W: ~52.44% -->
+    <Entry Thickness="6.0000" Desc="Engrave">
+      <CutSetting type="Scan">
+        <maxPower Value="52.44"/>
+        <maxPower2 Value="52.44"/>
+        <speed Value="4000"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+
+  <Material name="Black Acrylic">
+    <!-- Black Acrylic Cut rows remain at 100% -->
+    <Entry Thickness="4.6000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="109"/>
+        <numPasses Value="1"/>
+      </CutSetting>
+    </Entry>
+    <Entry Thickness="7.6000" Desc="Cut">
+      <CutSetting type="Cut">
+        <maxPower Value="100"/>
+        <maxPower2 Value="100"/>
+        <speed Value="109"/>
+        <numPasses Value="2"/>
+      </CutSetting>
+    </Entry>
+  </Material>
+</LightBurnLibrary>
